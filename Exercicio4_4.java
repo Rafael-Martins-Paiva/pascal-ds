@@ -14,7 +14,7 @@ public final class Exercicio4_4 {
 
      public static void main(String[] args) {
         System.out.println("--- Testando Exercício 4.4 ---");
-        String concat1 = concatenar("Programação ", "Orientada a Objetos");
+        String concat1 = concatenar("Programação ", "Orientada a Amor");
         System.out.println("Resultado 1: '" + concat1 + "'");
 
         String concat2 = concatenar("Teste ", null);

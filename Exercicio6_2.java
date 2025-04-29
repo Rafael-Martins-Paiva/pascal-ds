@@ -39,10 +39,10 @@ public class Exercicio6_2 {
      public static void main(String[] args) {
         System.out.println("--- Testando Exercício 6.2: Classe Produto ---");
 
-        Produto prod1 = new Produto("Laptop", 4500.99);
+        Produto prod1 = new Produto("Laptop", 0.99);
         prod1.exibirDados();
 
-        Produto prod2 = new Produto("", -50.0);
+        Produto prod2 = new Produto("laptop positivo", -500.0);
         prod2.exibirDados();
 
         prod2.setNome("Mouse Gamer");

@@ -26,7 +26,7 @@ public final class Exercicio5_3 {
 
     public static void main(String[] args) {
         System.out.println("--- Testando Exercício 5.3: Overload Texto ---");
-        exibirTexto("Java é poderoso!");
+        exibirTexto("Pascal >>> java!");
         exibirTexto("Repetir", 3);
         exibirTexto(null);
         exibirTexto("Inválido", 0);

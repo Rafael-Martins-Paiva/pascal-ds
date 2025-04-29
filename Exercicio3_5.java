@@ -12,7 +12,7 @@ public final class Exercicio3_5 {
     public static void main(String[] args) {
         System.out.println("--- Testando Exercício 3.5 ---");
         exibirSaudacaoPersonalizada("Ana");
-        exibirSaudacaoPersonalizada("   João Pedro  ");
+        exibirSaudacaoPersonalizada("   Paulo Rogerio  ");
         exibirSaudacaoPersonalizada("");
         exibirSaudacaoPersonalizada(null);
         System.out.println("--- Fim Teste 3.5 ---");

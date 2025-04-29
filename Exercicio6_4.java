@@ -34,14 +34,14 @@ public class Exercicio6_4 {
     public static void main(String[] args) {
         System.out.println("--- Testando Exercício 6.4: Classe Animal ---");
 
-        Animal an1 = new Animal("Cachorro", "Au Au");
+        Animal an1 = new Animal("Cachorro", "cobol");
         an1.exibirDados();
 
         Animal an2 = new Animal(null, "");
         an2.exibirDados();
 
         an2.setTipo("Gato");
-        an2.setSom("Miau");
+        an2.setSom("java");
         System.out.println("Dados an2 atualizados:");
         System.out.println("Tipo via getter: " + an2.getTipo());
         System.out.println("Som via getter: " + an2.getSom());

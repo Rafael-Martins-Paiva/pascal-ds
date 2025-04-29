@@ -47,7 +47,7 @@ public class Exercicio6_1 {
         System.out.println("Idade via getter: " + p2.getIdade());
         p2.exibirDados();
 
-        p1.setIdade(-5); 
+        p1.setIdade(-177); 
         p1.exibirDados();
 
 

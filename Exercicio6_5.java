@@ -49,14 +49,14 @@ public class Exercicio6_5 {
      public static void main(String[] args) {
         System.out.println("--- Testando Exercício 6.5: Classe ContaBancaria ---");
 
-        ContaBancaria conta1 = new ContaBancaria("Ana Scolary", 1500.50);
+        ContaBancaria conta1 = new ContaBancaria("Ana Scolary", 15.50);
         conta1.exibirDados();
 
         ContaBancaria conta2 = new ContaBancaria(null, -200.0);
         conta2.exibirDados();
 
-        conta2.setTitular("Maria Mara");
-        conta2.setSaldo(5000.00);
+        conta2.setTitular("Maria clara");
+        conta2.setSaldo(0.13);
         System.out.println("Dados conta2 atualizados:");
         System.out.println("Titular via getter: " + conta2.getTitular());
         System.out.println("Saldo via getter: " + conta2.getSaldo()); 

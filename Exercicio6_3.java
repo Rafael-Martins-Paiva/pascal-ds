@@ -34,7 +34,7 @@ public class Exercicio6_3 {
     public static void main(String[] args) {
         System.out.println("--- Testando Exercício 6.3: Classe Livro ---");
 
-        Livro livro1 = new Livro("O Senhor dos Anéis", "J.R.R. Tolkien");
+        Livro livro1 = new Livro("O Senhor dos Anéis", "não lembro Tolkien");
         livro1.exibirDados();
 
         Livro livro2 = new Livro(" ", null);
