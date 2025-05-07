@@ -4,7 +4,7 @@ public class year {
   public static class GetYear {
     public int ano() {
       Calendar calendar = Calendar.getInstance();
-      return calendar.get(Calendar.YEAR);  
+      return calendar.get(Calendar.YEAR); // retorna o ano
     }
   }
 

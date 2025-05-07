@@ -5,8 +5,8 @@ public class return_name {
         }
     }
     public static void main(String[] args) {
-        String username = System.getProperty("user.name");
-        pauloLindo pessoa = new pauloLindo();
-        System.out.println("Usuário logado: " + pessoa.getNome(username));
+        String username = System.getProperty("user.name"); // pegar o nome do usuario logado
+        pauloLindo pessoa = new pauloLindo();  // ele instancia
+        System.out.println("Usuário logado: " + pessoa.getNome(username)); // retorna nome do usuario
     }
 }
